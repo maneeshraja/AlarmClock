@@ -1,0 +1,139 @@
+.clock {
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    background-color: aliceblue;
+    margin: auto;
+    background-image: url(../Images/clockbackground.png);
+}
+
+.clockNumbers {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+
+.clockNumber12 {
+    top: -10px;
+}
+
+.clockNumber1 {
+    right: -45px;
+    top: -34px;
+}
+
+.clockNumber2 {
+    right: -75px;
+    top: -36px;
+}
+
+.clockNumber3 {
+    right: -90px;
+    top: -26px;
+}
+
+.clockNumber4 {
+    right: -75px;
+    top: -16px;
+}
+
+.clockNumber5 {
+    right: -45px;
+    top: -18px;
+}
+
+.clockNumber6 {
+    top: -40px;
+}
+
+.clockNumber7 {
+    top: -85px;
+    right: 45px;
+}
+
+.clockNumber8 {
+    top: -152px;
+    right: 75px;
+}
+
+.clockNumber9 {
+    top: -230px;
+    right: 88px;
+}
+
+.clockNumber10 {
+    top: -308px;
+    right: 75px;
+}
+
+.clockNumber11 {
+    top: -373px;
+    right: 41px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: -329px;
+    right: -95px;
+}
+
+.hourArrow {
+    width: 4px;
+    height: 40px;
+    position: relative;
+    top: -434px;
+    background: black;
+    border-radius: 20px;
+    right: -98px;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+.minuteArrow {
+    width: 4px;
+    height: 60px;
+    position: relative;
+    top: -394px;
+    background: black;
+    border-radius: 20px;
+    right: -98px;
+    transform-origin: bottom center;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+.secondArrow {
+    width: 1px;
+    height: 90px;
+    position: relative;
+    top: -506px;
+    border-radius: 20px;
+    right: -100px;
+    transform-origin: center 80%;
+    transform: rotate(0deg);
+    background-color: black;
+    z-index: 1;
+}
+
+.digitalTime {
+    position: relative;
+    top: -483px;
+    border-radius: 6px;
+    background-color: white;
+    text-align: center;
+    width: 28%;
+    margin: auto;
+    padding: 3px 0px;
+    font-size: 12px; 
+    background-color: dimgrey;
+    opacity: 0.5;
+    color: white; 
+    font-weight: bold;
+}
